@@ -25,6 +25,12 @@ zinit light-mode for \
 
 zinit light zsh-users/zsh-autosuggestions
 
+zinit ice pick"async.zsh" src"pure.zsh"
+zinit light sindresorhus/pure
+
+zinit ice from"gh-r" as"program"
+zinit light junegunn/fzf
+
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
 
