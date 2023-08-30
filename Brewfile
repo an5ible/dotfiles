@@ -22,8 +22,16 @@ cask "redisinsight"
 cask "sublime-text"
 cask "telegram-desktop"
 cask "visual-studio-code"
+mas "2FAS - Two Factor Authentication Extension", id: 6443941139
+mas "Bear", id: 1091189122
+mas "Bitwarden", id: 1352778147
+mas "DaisyDisk", id: 411643860
+mas "FlagSwitcher", id: 1157313107
+mas "Gemini", id: 463541543
+mas "HTTPBot", id: 1232603544
+mas "Moom", id: 419330170
 mas "Xcode", id: 497799835
-vscode "donjayamanne.githistory"
+vscode "charliermarsh.ruff"
 vscode "humao.rest-client"
 vscode "mhutchie.git-graph"
 vscode "ms-python.black-formatter"
