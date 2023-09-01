@@ -9,7 +9,3 @@
 [merge]
     command = "code"
     args = ["--wait", "--diff", "{{ "{{" }} .Destination {{ "}}" }}", "{{ "{{" }} .Source {{ "}}" }}", "{{ "{{" }} .Target {{ "}}" }}"]
-
-
-[test]
-    p = "{{ (ejsonDecrypt "test.ejson").database_password }}"
