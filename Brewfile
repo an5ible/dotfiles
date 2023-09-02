@@ -1,6 +1,6 @@
 tap "homebrew/bundle"
 tap "lotyp/formulae"
-tap "shopify/shopify"
+brew "atuin"
 brew "bat"
 brew "broot"
 brew "chezmoi"
