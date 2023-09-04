@@ -1,0 +1,6 @@
+{
+    "Alt-/": "lua:comment.comment",
+    "Ctrl-/": "lua:comment.comment",
+    "Ctrl-g": "command-edit:goto ",
+    "CtrlUnderscore": "lua:comment.comment"
+}
