@@ -6,7 +6,7 @@ if [[ "$current_shell" != *"zsh"* ]]; then
     new_shell="$(which zsh)"
 
     if [ -n "$new_shell" ]; then
-        chsh -s "$new_shell"
+        sudo chsh -s "$new_shell" $(whoami)
         echo "Changed shell to $new_shell"
     else
         echo "zsh is not installed or not found in PATH. Please install zsh."
