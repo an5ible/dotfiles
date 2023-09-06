@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+current_shell="$SHELL"
+
+if [[ "$current_shell" != *"zsh"* ]]; then
+    new_shell="$(which zsh)"
+
+    if [ -n "$new_shell" ]; then
+        chsh -s "$new_shell"
+        echo "Changed shell to $new_shell"
+    else
+        echo "zsh is not installed or not found in PATH. Please install zsh."
+    fi
+else
+    echo "Current shell is already set to zsh."
+fi
