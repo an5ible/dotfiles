@@ -30,11 +30,13 @@ zinit ice from"gh-r" as"program"
 zinit light junegunn/fzf
 zinit load atuinsh/atuin
 
-eval "$(zoxide init zsh)"
+eval "$(zoxide init zsh --no-aliases)"
 eval "$(starship init zsh)"
 
 alias ls="exa"
 alias gs="git status"
+alias z='__zoxide_z'
+alias zi='__zoxide_zi'
 
 dotenv() {
     set -o allexport
