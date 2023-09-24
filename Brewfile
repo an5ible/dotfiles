@@ -1,6 +1,7 @@
+tap "an5ible/brew"
+tap "hettysoft/tap"
 tap "homebrew/bundle"
 tap "lotyp/formulae"
-tap "an5ible/brew"
 brew "atuin"
 brew "ansible"
 brew "aws-sam-cli"
@@ -17,12 +18,12 @@ brew "gopass-jsonapi"
 brew "mas"
 brew "micro"
 brew "mitmproxy"
+brew "hetty"
 brew "node"
 brew "pinentry-mac"
 brew "poetry"
 brew "postgresql@13"
 brew "starship"
-brew "zellij"
 brew "zoxide"
 brew "lotyp/formulae/dockutil", link: false
 cask "airtable"
@@ -31,8 +32,6 @@ cask "dbeaver-community"
 cask "docker"
 cask "firefox"
 cask "google-chrome"
-cask "gopass-ui"
-cask "hubstaff"
 cask "iterm2"
 cask "microsoft-auto-update"
 cask "mudlet"
@@ -41,15 +40,18 @@ cask "microsoft-word"
 cask "office-serializer"
 cask "pgadmin4"
 cask "redisinsight"
-cask "sublime-text"
 cask "telegram-desktop"
 cask "visual-studio-code"
+cask "background-music"
 cask "warp"
 mas "2FAS - Two Factor Authentication Extension", id: 6443941139
 mas "Bear", id: 1091189122
+mas "Bitwarden", id: 1352778147
+mas "Boop", id: 1518425043
 mas "FlagSwitcher", id: 1157313107
 mas "Moom", id: 419330170
 mas "Tailscale", id: 1475387142
+mas "Telegram", id: 747648890
 mas "Xcode", id: 497799835
 vscode "charliermarsh.ruff"
 vscode "donjayamanne.githistory"
