@@ -56,6 +56,7 @@ cask "microsoft-auto-update"
 cask "microsoft-excel"
 cask "microsoft-word"
 cask "mudlet"
+cask "obsidian"
 cask "office-serializer"
 cask "pgadmin4"
 cask "rectangle"
@@ -66,7 +67,6 @@ cask "ubersicht"
 cask "visual-studio-code"
 cask "warp"
 mas "2FAS - Two Factor Authentication Extension", id: 6443941139
-mas "Bear", id: 1091189122
 mas "Bitwarden", id: 1352778147
 mas "Boop", id: 1518425043
 mas "FlagSwitcher", id: 1157313107
