@@ -1,0 +1,19 @@
+Host sm1
+    User ansible
+
+Host dev
+    User deploy
+    IdentityFile ~/.ssh/mpc
+ 
+Host stage
+    User deploy
+    IdentityFile ~/.ssh/mpc
+
+Host prod
+    User deploy
+    IdentityFile ~/.ssh/mpc
+
+Host *
+    User an5ible
+    Compression yes
+    IdentityFile ~/.ssh/ansible

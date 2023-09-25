@@ -1,0 +1,2 @@
+{{- $x := joinPath .chezmoi.homeDir ".ssh/ansible" -}}
+{{ output "ssh-keygen" "-y" "-f" $x | trim }}
