@@ -1,0 +1,2 @@
+{{- $x := joinPath .chezmoi.homeDir ".oci/oci_api.pem" -}}
+{{ output "openssl" "rsa" "-in" $x "-pubout" | trim }}
