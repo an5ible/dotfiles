@@ -37,9 +37,7 @@ brew "yakitrak/yakitrak/obs"
 cask "airtable"
 cask "background-music"
 cask "bitwarden"
-cask "brackets"
 cask "dbeaver-community"
-cask "devutils"
 cask "firefox"
 cask "font-fira-code"
 cask "font-fira-code-nerd-font"
@@ -60,7 +58,6 @@ cask "visual-studio-code"
 cask "warp"
 mas "2FAS - Two Factor Authentication Extension", id: 6443941139
 mas "Bitwarden", id: 1352778147
-mas "Boop", id: 1518425043
 mas "FlagSwitcher", id: 1157313107
 mas "Moom", id: 419330170
 mas "Tailscale", id: 1475387142
