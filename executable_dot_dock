@@ -18,7 +18,7 @@ dockutil --add /Applications/Visual\ Studio\ Code.app --position 6 --no-restart
 dockutil --add /System/Applications/System\ Settings.app --position 7 --no-restart
 dockutil --add /Applications/Warp.app --position 8 --no-restart
 dockutil --add /System/Applications/Messages.app --position 9 --no-restart
-dockutil --add /Applications/Telegram\ Desktop.app --position 10 --no-restart
+dockutil --add /Applications/Telegram.app --position 10 --no-restart
 
 dockutil --add '~/Downloads' --view grid --display folder --allhomes
 dockutil --add '~/Documents' --view grid --display folder --allhomes
