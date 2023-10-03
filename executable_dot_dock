@@ -8,29 +8,17 @@ loggedInUserPlist="/Users/$loggedInUser/Library/Preferences/com.apple.dock.plist
 dockutil --remove all --no-restart
 echo "clean-out the Dock"
 
-#source: https://github.com/kcrawford/dockutil/issues/144
-#Safari’s location changed in macOS 13 Ventura. If statement to supply the correct location based on OS version.
-version=$(sw_vers -productVersion | awk -F '.' '{print $1}')
-if [ $version -lt 13 ]; then
-	safari=/Applications/Safari.app
-	else
-	safari=/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app
-fi
-
-
 # Setup dock, in various examples
 dockutil --add /System/Applications/Launchpad.app --position 1 --no-restart
-dockutil --add $safari --position 2 --no-restart
-dockutil --add /Applications/Firefox.app --position 3 --no-restart
-dockutil --add /Applications/Google\ Chrome.app --position 5 --no-restart
-dockutil --add /System/Applications/Calendar.app --position 5 --no-restart
-dockutil --add /System/Applications/Reminders.app --position 6 --no-restart
-dockutil --add /Applications/Obsidian.app --position 7 --no-restart
-dockutil --add /Applications/Visual\ Studio\ Code.app --position 8 --no-restart
-dockutil --add /System/Applications/System\ Settings.app --position 9 --no-restart
-dockutil --add /Applications/Warp.app --position 10 --no-restart
-dockutil --add /System/Applications/Messages.app --position 11 --no-restart
-dockutil --add /Applications/Telegram\ Desktop.app --position 12 --no-restart
+dockutil --add /Applications/Firefox.app --position 2 --no-restart
+dockutil --add /System/Applications/Calendar.app --position 3 --no-restart
+dockutil --add /System/Applications/Reminders.app --position 4 --no-restart
+dockutil --add /Applications/Obsidian.app --position 5 --no-restart
+dockutil --add /Applications/Visual\ Studio\ Code.app --position 6 --no-restart
+dockutil --add /System/Applications/System\ Settings.app --position 7 --no-restart
+dockutil --add /Applications/Warp.app --position 8 --no-restart
+dockutil --add /System/Applications/Messages.app --position 9 --no-restart
+dockutil --add /Applications/Telegram\ Desktop.app --position 10 --no-restart
 
 dockutil --add '~/Downloads' --view grid --display folder --allhomes
 dockutil --add '~/Documents' --view grid --display folder --allhomes

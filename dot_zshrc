@@ -44,4 +44,8 @@ dotenv() {
     set +o allexport
 }
 
+act-gopass() {
+    gopass show cicd/`basename $PWD` > .env && act --secret-file .env
+}
+
 export EDITOR=micro
